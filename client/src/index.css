@@ -1,0 +1,21 @@
+body {
+   margin: 0; 
+   padding: 0;
+   background-color: aliceblue;
+   display: flex;
+   justify-content: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.app {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 800px;
+    margin-top: 50px;
+}
+
+.list-header {
+
+}

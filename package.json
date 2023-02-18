@@ -1,0 +1,22 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
+    "server": "node ./server/server.js",
+    "client": "cd client && npm start"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjohnfit/to-do-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xjohnfit/to-do-app/issues"
+  },
+  "homepage": "https://github.com/xjohnfit/to-do-app#readme",
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
+}
