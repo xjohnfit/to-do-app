@@ -1,7 +1,22 @@
-const ListItem = () => {
+import TickIcon from './TickIcon';
+import ProgressBar from './ProgressBar';
+
+const ListItem = ({task}) => {
     return (
-      <div>
-      </div>
+      <li className="list-item">
+
+        <div className="info-container">
+          <TickIcon />
+          <p className="tasktitle">{task.title}</p>
+          <ProgressBar />
+        </div>
+
+        <div className="button-container">
+          <button className="edit">EDIT</button>
+          <button className="delete">DELETE</button>
+        </div>
+
+      </li>
     );
   }
   

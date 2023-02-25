@@ -16,6 +16,115 @@ body {
     margin-top: 50px;
 }
 
-.list-header {
 
+.button-container, .info-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+.edit {
+    border: 1.5px solid rgb(141, 181, 145);
+    color: rgb(145, 181, 145);
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.edit:hover {
+    background-color: rgb(110, 214, 121);
+    color: rgb(0, 0, 0);
+}
+
+.edit:active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(110, 214, 121);
+
+}
+
+.delete {
+    border: 1.5px solid rgb(255, 175, 163);
+    color: rgb(255, 175, 163);
+    text-transform: uppercase;
+}
+
+.delete:hover {
+    background-color: rgb(247, 104, 83);
+    color: #000;
+}
+
+.delete:active {
+    background-color: rgb(247, 104, 83);
+    color: rgb(255, 255, 255);
+}
+
+.create {
+    border: 1.5px solid rgb(108, 115, 145);
+    color: rgb(108, 115, 145);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.create:hover {
+    background-color: rgb(131, 138, 172);
+    color: #000;
+}
+
+.create:active {
+    background-color: rgb(108, 115, 145);
+    color: rgb(255, 255, 255);
+}
+
+.signout {
+    border: 1.5px solid rgb(255, 175, 163);
+    background-color: rgb(255, 175, 163) !important;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.signout:hover {
+    background-color: transparent !important;
+    border: 1.5px solid rgb(175, 94, 94);
+    color: rgb(255, 0, 0);
+
+}
+
+.signout:active {
+    border: 1.5px solid rgb(175, 81, 81);
+    background-color: rgb(175, 81, 81);
+    color: rgb(255, 255, 255);
+}
+
+.list-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgba(0, 0, 0, 0.05) 1px solid;
+}
+
+/* List Item */
+
+.list-item {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0 0 0 1px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.tick {
+    padding: 10px;
+}
+
+.tick path {
+    fill: none;
+    stroke: #000;
+    stroke-miterlimit: 10;
+    stroke-width: 32px;
 }

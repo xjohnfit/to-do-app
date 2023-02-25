@@ -1,7 +1,7 @@
 const ListHeader = ({ listName }) => {
 
     const signOut = () => {
-
+      console.log('SignOut');
     }
     
     return (
