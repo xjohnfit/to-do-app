@@ -183,3 +183,68 @@ input {
 .modal label {
     font-size: 13px;
 }
+
+/* Auth */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.auth-container-box {
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+}
+
+.auth-container-box form {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 20px;
+}
+
+.auth-options {
+    display: flex;
+}
+
+.auth-options button {
+    width: 50%;
+    border: none;
+    padding: 10px;
+    color: rgb(35, 38, 47);
+}
+
+.copyright {
+    font-size: 13px;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+.user-email {
+    float: right;
+    font-size: 18px;
+    margin: 10px;
+    color: rgb(114, 114, 114);
+    font-weight: bold;
+}
+
+.outer-bar {
+    width: 200px;
+    height: 14px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.inner-bar {
+    height: 14px;
+
+}
+
+.tasktitle {
+    width: 300px;
+}
